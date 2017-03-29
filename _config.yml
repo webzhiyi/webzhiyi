@@ -4,11 +4,11 @@ permalink: /posts/:title.html
 excerpt_separator: "<!-- more -->"
 
 github: 
-author: "文"
-email: winfirm#163.com
-name: "个人博客"
-url: http://www.panxw.com
-domain: www.panxw.com
+author: "webzhiyi"
+email: webzhiyi#163.com
+name: "webzhiyi"
+url: http://webzhiyi.oschina.io
+domain: webzhiyi.oschina.io
 all_categories: [
 ["android", "Android开发","/posts/android.html"], 
 ["program", "软件编程","/posts/program.html"],
