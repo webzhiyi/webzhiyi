@@ -6,12 +6,21 @@ tags: [阅读,人生]
 ---
 ### 哪个更重要？
 
->方向比努力重要，  
->身体比金钱重要，  
->生活比文凭重要，  
->情商比智商重要，  
->能力比知识重要，  
->行动比（愿望）空想重要。 
+{% highlight ruby %}
+
+function color_inverse($color){
+    $color = str_replace('#', '', $color);
+    if (strlen($color) != 6){ return '#000000'; }
+    $rgb = '';
+    for ($x=0;$x<3;$x++){
+        $c = 255 - hexdec(substr($color,(2*$x),2));
+        $c = ($c < 0) ? 0 : dechex($c);
+        $rgb .= (strlen($c) < 2) ? '0'.$c : $c;
+    }
+    return '#'.$rgb;
+}
+
+{% endhighlight %}
 
 
 ### 一生最重要的7项资产
@@ -31,3 +40,5 @@ tags: [阅读,人生]
 把别人当成自己（同情），  
 把别人当成别人（尊重），  
 把自己当成自己（走自己的路）。  
+
+
