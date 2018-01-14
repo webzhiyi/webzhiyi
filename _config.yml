@@ -44,7 +44,7 @@ markdown: kramdown
 
 kramdown:
   input: GFM
-  syntax_highlighter: 
+  syntax_highlighter: rouge
 
 # port
 # port: 1234
